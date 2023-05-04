@@ -13,13 +13,13 @@ export default function MainChatContainer() {
 
                     </div>
                     <div className="flex-1 px-2">
-                        <div className="inline-block bg-gray-300 rounded-lg p-2 ml-6 px-6 text-gray-700 shadow-lg shadow-gray-500 typewriting hover:-translate-y-0.5 duration-300 cursor-pointer">
+                        <div className="inline-block bg-gray-300 rounded-lg p-2 ml-6 px-6 text-gray-700 shadow-lg shadow-gray-500 font-typeWriting hover:-translate-y-0.5 duration-300 cursor-pointer">
                             <span>Hello There! How may i help you..?</span>
                         </div>
                     </div>
                 </div>
 
-                <div className="message me mb-4 flex text-right typewriting">
+                <div className="message me mb-4 flex text-right font-typeWriting">
                     <div className="flex-1 px-2 hover:-translate-y-0.5 duration-300 cursor-pointer">
                         <div className="inline-block bg-blue-600 rounded-lg shadow-lg shadow-gray-500 p-2 px-6 text-white">
                             <span>I accept. Thank you very much.</span>
@@ -54,7 +54,7 @@ export default function MainChatContainer() {
 
 
                     <div className="flex-1">
-                        <input name="message" className="w-full block outline-none px-4 py-4 bg-transparent typewriting " rows="1"
+                        <input name="message" className="w-full block outline-none px-4 py-4 bg-transparent font-typeWriting " rows="1"
                             placeholder="Type a message..." autoFocus />
                     </div>
 
